@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 from transformers import BertPreTrainedModel, BertModel, DistilBertModel, AlbertModel, DistilBertPreTrainedModel
-from torchcrf import CRF
+from TorchCRF import CRF
 
 
 PRETRAINED_MODEL_MAP = {
